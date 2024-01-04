@@ -1,0 +1,21 @@
+#!/system/bin/sh
+PS3='Choose an option: '
+hosts=("AdAway" "Disable" "Quit")
+select pref in "${hosts[@]}"; do
+    case $pref in
+        "AdAway")
+            echo "AdAway Host File"
+            curl -s https://raw.githubusercontent.com/AdAway/adaway.github.io/master/hosts.txt -o /etc/hosts
+	    echo "Successfully updated"
+            ;;
+        "Disable")
+            echo "Disable AdBlock"
+            echo /bin/hosts/disable > /etc/hosts
+            echo " Successfully updated"
+            ;;
+	"Quit")
+	    exit
+	    ;;
+        *) echo "Invalid option $REPLY";;
+    esac
+done

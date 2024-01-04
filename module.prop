@@ -1,0 +1,6 @@
+id=adblock
+name=adblock
+version=v1
+versionCode=1
+author=zulfikar
+description=block ads | su -c adblock

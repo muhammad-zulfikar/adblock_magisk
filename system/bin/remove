@@ -1,0 +1,6 @@
+#!/system/bin/sh
+word="$1"
+grep -q "$word" /etc/hosts; [ $? -eq 0 ] && echo "Entry Found" || echo "No Entry Found"
+grep -v "$word" /etc/hosts > hosts && cp hosts /etc
+rm hosts
+echo "Removed"
