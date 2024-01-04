@@ -1,0 +1,1 @@
+# adblock-magisk-module
