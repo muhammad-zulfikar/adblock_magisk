@@ -8,8 +8,7 @@ This module uses the AdAway hosts file to block known ad and tracking domains. B
 
 ## Features
 
-- Blocks ads across all apps and browsers 
-- No need to configure each app separately
+- Blocks ads across all apps and browsers
 - Lightweight and efficient 
 
 ## Usage
