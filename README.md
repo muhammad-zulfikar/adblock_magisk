@@ -16,7 +16,7 @@ This module uses the AdAway hosts file to block known ad and tracking domains. B
   ![](adblock.gif)
 
 - Flash the module in Magisk Manager.
-- Type 'su -c adblock' in terminal emulator (Termux recommended) to select an option, no need to reboot for changes to take effect
+- Type `su -c adblock` in terminal emulator (Termux recommended) to select an option, no need to reboot for changes to take effect
 - Update hosts files regularly for best results
 
 ## Credits
